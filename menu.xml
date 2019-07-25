@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Array"
+        app:showAsAction="never"
+        android:title="@string/Array"/>
+
+    <item
+        android:id="@+id/clear"
+        app:showAsAction="never"
+        android:title="@string/Clear"/>
+
+    <item
+        android:id="@+id/action_dot"
+        android:icon="@drawable/ic_action_dot"
+        android:title="@string/dot"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_element"
+        android:icon="@drawable/ic_action_element"
+        android:title="@string/Element"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_element1"
+                android:icon="@drawable/ic_action_ele01"
+                android:title="@string/element1"
+                app:showAsAction="ifRoom|withText"/>
+            <item
+                android:id="@+id/action_element2"
+                android:icon="@drawable/ic_action_ele02"
+                android:title="@string/element2"
+                app:showAsAction="ifRoom|withText"/>
+            <item
+                android:id="@+id/action_element3"
+                android:icon="@drawable/ic_action_ele03"
+                android:title="@string/element3"
+                app:showAsAction="ifRoom|withText"/>
+
+        </menu>
+
+    </item>
+</menu>
