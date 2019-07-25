@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eric_APP</string>
+    <string name="Array">顯示Array</string>
+    <string name="Clear">清除畫面</string>
+    <string name="pointtxt">顯示點座標</string>
+    <string name="Dot">Dot</string>
+    <string name="Element">Element</string>
+    <string name="dot">dot</string>
+    <string name="element2">element2</string>
+    <string name="element1">element1</string>
+    <string name="element3">element3</string>
+</resources>
